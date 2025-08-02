@@ -126,12 +126,12 @@
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <input type="text" placeholder="Subject" required>
-                    <textarea rows="5" placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
+                <form class="contact-form" action="https://formspree.io/f/xblkaldz" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject" required>
+    <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
                 </form>
                 <div class="contact-info">
                     <div class="contact-item">
@@ -169,4 +169,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
